@@ -3,18 +3,17 @@ body{
     color: white;
 }
 .sobre{
-    border-style: solid;
     border-radius: 15px;
     position: absolute;
     top: 5%;
     left: 5%;
+    width: 35%;
 }
 .cursos{
-    border-style: solid;
     border-radius: 15px;
     position: absolute;
     top: 40%;
-    left: 60%;
+    left: 4%;
 }
 button{
     background-color: mediumblue;
@@ -24,4 +23,25 @@ button{
     border-radius: 10px;
     color: white;
     font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(74, 74, 83);
+    color: aliceblue;
+}
+img{
+    margin-left: 0%;
+    border-radius: 50%;
+}
+.entra{
+    border-radius: 15px;
+    position: absolute;
+    top: 5%;
+    left: 65%;
+}
+.eliti{
+    border-radius: 15px;
+    position: absolute;
+    top: 55%;
+    left: 65%;
 }
